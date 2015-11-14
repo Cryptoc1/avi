@@ -18,3 +18,6 @@ avi.py usage:
 All the requirements in `requirements.txt` can be satisfied by installing tweepy through pip (`install.sh` runs the following command).
 
     $ pip install -U tweepy
+
+
+##### Images provided by Icons8.com
