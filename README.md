@@ -20,4 +20,7 @@ All the requirements in `requirements.txt` can be satisfied by installing tweepy
     $ pip install -U tweepy
 
 
-##### Images provided by Icons8.com
+##### Images provided by [Icons8.com](http://icons8.com)
+
+
+Nearly 20 new icons

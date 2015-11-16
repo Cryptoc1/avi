@@ -8,6 +8,14 @@ cp avi.py /usr/local/bin/avi
 
 echo "Done moving shit."
 
+echo "Checking config"
+if [ -f "~/.config/avi/default.cfg" ]; then
+    echo "Config exists... Skipping"
+else
+    cp default.cfg ~/.config/avi/default.cfg
+fi
+echo "Done with the config..."
+
 echo "Installing tweepy..."
 pip install -U tweepy
 echo "Done installing tweepy."
