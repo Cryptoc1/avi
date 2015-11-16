@@ -4,7 +4,7 @@
 avi.py lets you set your twitter avi based on your mood.
 
 ## Setup
-To setup avi.py, add your own consumer and access tokens to avi.py. Then, run `install.sh` to start expressing yourself.
+To setup avi.py, add your own consumer and access tokens to defualt.cfg, as well as your name. Then, run `install.sh` to start expressing yourself.
 
 ## Usage
 ```
