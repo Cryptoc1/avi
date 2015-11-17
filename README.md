@@ -15,7 +15,7 @@ avi.py usage:
 ```
 
 ## Requirements
-All the requirements in `requirements.txt` can be satisfied by installing tweepy through pip (`install.sh` runs the following command).
+All the requirements in `requirements.txt` can be satisfied by installing tweepy through pip (`install.sh --with-tweepy` runs the following command).
 
     $ pip install -U tweepy
 
