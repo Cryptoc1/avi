@@ -64,7 +64,7 @@ def set_avi(mood):
             auth.set_access_token(tokens['access_key'], tokens['access_secret'])
             api = tweepy.API(auth)
             api.update_profile_image(os.path.expanduser('~/.config/avi/images/') + mood + '.png')
-            api.update_profile(name=mood + " " + get_name())
+            api.update_profile(name=mood.replace('-', ' ') + " " + get_name())
             print 'Avi has been changed, go to http://twitter.com to check it.'
         except Exception as e:
             print e
