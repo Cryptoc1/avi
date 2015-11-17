@@ -11,7 +11,6 @@
 
 import os, sys, ConfigParser
 import tweepy
-import webbrowser
 
 _usage = "avi.py usage:\n\
     -h|--help  :  Print this message\n\
